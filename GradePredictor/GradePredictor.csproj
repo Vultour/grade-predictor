@@ -199,9 +199,6 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\IconDelete.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="res\BEng-Software-Engineering.course" />
     <None Include="res\delete-24.png" />
   </ItemGroup>
@@ -210,9 +207,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="res\plus-24.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\PencilMedium.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="res\pencil-24.png" />
