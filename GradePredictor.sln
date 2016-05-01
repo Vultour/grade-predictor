@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.25123.0
+VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GradePredictor", "GradePredictor.csproj", "{6D19C6F0-2060-40E8-BCB8-23B3A0172F59}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GradePredictor", "GradePredictor\GradePredictor.csproj", "{6D19C6F0-2060-40E8-BCB8-23B3A0172F59}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GPUnitTests", "..\GPUnitTests\GPUnitTests.csproj", "{A32F8E1D-2FA7-4ACC-9158-EB9DC7EB9F7A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GPUnitTests", "GPUnitTests\GPUnitTests.csproj", "{A32F8E1D-2FA7-4ACC-9158-EB9DC7EB9F7A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
