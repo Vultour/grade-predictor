@@ -40,7 +40,7 @@ namespace GradePredictor.CourseCore
             set { this.result = (((value < 0) || (value > 100)) ? (Course.VALUE_NOT_AVAILABLE) : (value)); }
         }
 
-        public bool IsUsable { get { return (this.Result != Course.VALUE_NOT_AVAILABLE); } }
+        public bool IsUsable { get { return (this.UsableModulesRaw.Count() > 0); } }
 
         public bool NeedsRetake { get { return (this.UsableModulesRaw.Where((Module m) => (m.NeedsRetake)).Count() > 0); } } // NOTE: Can be optimized into single query
 
@@ -95,14 +95,14 @@ namespace GradePredictor.CourseCore
         {
             this.modules[index].Detach();
             this.modules.RemoveAt(index);
-            this.onChange(true);
+            this.childChangedHandler(null, true);
         }
 
         public void RemoveModule(Module m)
         {
             m.Detach();
             this.modules.Remove(m);
-            this.onChange(true);
+            this.childChangedHandler(null, true);
         }
 
 
