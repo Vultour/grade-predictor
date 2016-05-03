@@ -5,7 +5,7 @@ The result calculation follows the general marking scheme for United Kingdom.
 
 
 
-Released under the **GNU General Public License v2.0**.
+Released under the **GNU General Public License v2.0**. Icons made by [Designerz Base](http://www.flaticon.com/authors/designerz-base), [Freepik](http://www.freepik.com), [Daniel Bruce](http://www.flaticon.com/authors/daniel-bruce)  from www.flaticon.com
 
 
 
